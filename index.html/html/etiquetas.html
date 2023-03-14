@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <a href="../index.html"> salir de las etiquetas</a>
+    <title>Etiquetas</title>
+</head>
+<body>
+    <h1>Etiquetas de html</h1>    
+    <label for="nombre">Nombre</label>
+    <input type="text" value="" name="nombre" id="nombre">
+    <br>
+    <br>
+    <label for="nombre">Apellido</label>
+    <input type="text" value="" name="nombre" id="nombre">
+    <br>
+    <br>
+    <label for="edad">Edad</label>
+    <input type="number" value="" name="edad" id="edad" max="99" min="0">
+    <br>
+    <br>
+    <label for="fecha">Fecha De Nacimiento</label>
+    <input type="date" value="" name="fecha" id="fecha">
+    <br>
+    <br>
+    <label for="hora">Hora de llenado de formulario</label>
+    <input type="time" value="" name="hora" id="hora">
+    <br>
+    <br>
+    <label for="tiempo">hora y fecha de llenado</label>
+    <input type="datetime-local" value="" name="tiempo" id="tiempos">
+    <br>
+    <br>
+    <form name="formulario" method="post" action="http://pagina.com/send.php">
+        Selecciona el tipo de trabajo:
+        <select name="combo">
+          <option value="1">Gerente</option>
+          <option value="2" >Trabajador comun</option> 
+          <option value="3"selected>Domiciliario</option>
+        </select>
+      </form>
+      <br>
+    <label for="color">Color favorito</label>
+    <input type="color">
+    <br>
+    <br>  
+    <input type="submit">
+    <input type="reset">
+</body>
+</html>
