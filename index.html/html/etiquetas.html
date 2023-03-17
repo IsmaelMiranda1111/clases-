@@ -5,31 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <a href="../index.html"> salir de las etiquetas</a>
+    <br>
+    <br>
     <title>Etiquetas</title>
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <h1>Etiquetas de html</h1>    
+  <img src="../img/descargar.jpg" alt="" width="150px" height="120px">
+  <br>
+  <br>
+    <br>
+   <h1>Etiquetas de html</h1>    
     <label for="nombre">Nombre</label>
-    <input type="text" value="" name="nombre" id="nombre">
+    <input type="text" value="" name="nombre" id="nombre" required>
     <br>
     <br>
+    VIDEO:
+      <br>
+      <video controls width="400" height="300" autoplay poster="../img/keo.jpg">
+        <source src="../img/video.mp4.mp4" type="video/mp4">
+      </video>
+      <br>
+      <br>
     <label for="nombre">Apellido</label>
-    <input type="text" value="" name="nombre" id="nombre">
+    <input type="text" value="" name="nombre" id="nombre" required>
     <br>
     <br>
     <label for="edad">Edad</label>
-    <input type="number" value="" name="edad" id="edad" max="99" min="0">
+    <input type="number" value="" name="edad" id="edad" max="99" min="0" required.>
     <br>
     <br>
     <label for="fecha">Fecha De Nacimiento</label>
-    <input type="date" value="" name="fecha" id="fecha">
+    <input type="date" value="" name="fecha" id="fecha" >
     <br>
     <br>
     <label for="hora">Hora de llenado de formulario</label>
-    <input type="time" value="" name="hora" id="hora">
+    <input type="time" value="" name="hora" id="hora" maxlength="24:00">
     <br>
     <br>
-    <label for="tiempo">hora y fecha de llenado</label>
+    <label for="tiempo">hora y fecha de llenado</label required>
     <input type="datetime-local" value="" name="tiempo" id="tiempos">
     <br>
     <br>
@@ -44,6 +58,9 @@
       <br>
     <label for="color">Color favorito</label>
     <input type="color">
+    <br>
+    <br>
+    <details><h3>Hola, espero estes bien</h3></details>
     <br>
     <br>  
     <input type="submit">
